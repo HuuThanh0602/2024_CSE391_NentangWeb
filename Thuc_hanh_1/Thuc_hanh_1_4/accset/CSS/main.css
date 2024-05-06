@@ -1,8 +1,34 @@
-table{
+#main{
+    background-color: white;
     width: 800px;
+    margin: 0 auto;
+    border-top: 15px solid rgb(218, 218, 218);
+    border-right: 10px solid rgb(218, 218, 218);
+    border-bottom: 30px solid rgb(218, 218, 218);
+    border-left: 10px solid rgb(218, 218, 218);
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    
 }
-table,td,th{
-    border: 1px solid black;
-    border-collapse: collapse;
-    text-align: center;
+header b{
+    padding: 0 15px;
+    font-size:20px;
+    
+}
+
+.content{
+    width: 700px;
+    margin: 0 auto 0 15px;
+}
+.content_1{
+    border-top: 1px solid gray ;
+    padding: 0 20px;
+    display: flex;
+}
+p{
+    font-weight: bold;
+}
+.content_1_left{
+    width: 150px;
 }
