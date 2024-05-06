@@ -1,0 +1,27 @@
+#main-top{
+    background-color: aquamarine;
+}
+#main-bottom{
+    background-color: blue;
+}
+#main_top{
+    display: flex;
+}
+.main_top_1{
+background-color: bisque;
+}
+.main_top_2{
+    background-color: black;
+}
+.main_top_3{
+        background-color: #333;
+}
+.main_top_1{
+    background-color: bisque;
+    }
+    .main_top_2{
+        background-color: black;
+    }
+    .main_top_3{
+            background-color: #333;
+    }
