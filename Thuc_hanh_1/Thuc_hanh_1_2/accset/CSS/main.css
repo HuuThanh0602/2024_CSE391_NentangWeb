@@ -4,41 +4,54 @@ body{
     font-style: normal;
     color: black;
     padding: 0;
-    margin: 0 auto;
+    margin: 20px auto;
     width: 98%;
     font-size: 15px;
+    
+}
+main , header{
+    width: 97%;
+    margin: 0 auto;
 }
 header{
     border-left: 4px solid rgb(139, 28, 28);
     color: rgb(139, 28, 28);
 }
-header h3{
+header h2{
     padding-left: 8px;
 }
-
-.main_top_1 {   
-    max-width:22%;
+#main_top{
+    display: flex;
+   
+}
+.main-share {   
     min-width: 265px;
-    padding: 0px 5px 40px 0px;
+    padding: 0px 47px 40px 0px;
     
 }
-.main_top_1 img{
+.main_3{
+    padding-right:0px ;
+}
+.main-share img{
     width: 100%;
 }
 a{
     text-decoration: none;
 }
-.main_top_1_title a{
+.main_list a{
     color: black;
     font-weight: 600;
 }
-.main_top_1 li{
+.main-share li{
     list-style: none;
 }
-.main_top_1_item i{
+.main_list_item i{
     color: rgb(136, 39, 39);
 }
-.main_top_1_item span{
+.main_list_item span{
     color: black;
     padding-left: 5px;
+}
+#main_bottom{
+    display: flex;
 }
