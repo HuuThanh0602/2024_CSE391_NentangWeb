@@ -1,18 +1,19 @@
 h3 {
     color: rgb(132, 40, 7);
 }
-.main_top_1 , .main_top_2, .main_top_3{
+.main_top_1 , .main_top_2, .main_top_3, .main_bottom_1, .main_bottom_2, .main_bottom_3{
     width: 50%;
 }
-.main_top_2, .main_top_3 {
-    padding-left: 20px;
+.main_top_2, .main_top_3, .main_bottom_2, .main_bottom_3 {
+    padding-left: 30px;
 }
 img {
     width: 100%;
     
 }
-.main_top {
+.main_top, .main_bottom{
     display: flex;
+    padding-bottom: 40px;
 }
 h1 {
     font-size: 15px;
