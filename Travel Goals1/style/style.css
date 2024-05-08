@@ -1,0 +1,122 @@
+.container {
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+a {
+    color: rgb(209, 206, 10);
+    font-weight: bold;
+}
+
+ul {
+   
+    width: 150px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+header {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+li {
+    text-align: right;
+   
+}
+
+#hero {
+    height: 800px;
+    background-image: url("/style/image/ocean.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#hero-content {
+    width: 900px;
+    background-color: rgba(51,47,47,0.8);
+    box-shadow: 2px 4px 8px rgb(68,67 ,67);
+    border-radius: 8px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+}
+
+#hero-content h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: "Releway", sans-serif;
+    margin: 0;
+}
+
+#hero-content p {
+    color: white;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 300;
+    
+}
+#hero-content a {
+    background-color: rgb(255,251,0);
+    color: black;
+    padding: 12px 24px;
+    font-size: 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    box-shadow: 2px 8px 4px rgb(68, 67, 67);
+
+}
+#hero-content a:hover {
+    background-color: rgb(255,238,0);
+}
+#highlights {
+    background-color: rgb(192, 242, 225);
+}
+#highlights h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+#destinations {
+    width: 90%;
+    margin: auto;
+    
+}
+.destinations {
+    margin: 0 20px;
+    
+}
+.destinations img {
+    width: 200px;
+    height: 150px;
+    box-shadow: 2px 4px 8px rgb(68, 67 , 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
+.destinations p {
+    text-align: center;
+}
+.destinations strong {
+    color: rgb(0,160,117);
+}
+footer {
+    background-color: black;
+    
+}
+
+.icon {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-left: 10px;
+    padding: 5px auto;
+}
