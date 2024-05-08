@@ -28,7 +28,44 @@ header b{
 }
 p{
     font-weight: bold;
+    
 }
 .content_1_left{
-    width: 150px;
+    width: 200px;
 }
+form input{
+    width: 500px
+}
+.content_1_right{
+    width: 600px;
+}
+
+
+
+.thanh {
+    text-align: right; /* Đưa chữ sang phải */
+  }
+  
+  /* Ẩn radio button mặc định */
+  .thanh input[type="radio"] {
+    display: none;
+  }
+  
+  /* Tạo custom radio button */
+  .thanh input[type="radio"] + label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    margin-right: 8px;
+  }
+  
+  /* Khi radio button được chọn */
+  .thanh input[type="radio"]:checked + label:before {
+    background-color: #333;
+  }
+  
+
+
