@@ -1,30 +1,54 @@
-#main-top{
-    background-color: aquamarine;
+html,body{
+    margin: 0;
 }
-#main-bottom{
-    background-color: blue;
-}
+
 #main_top{
+    background-color: aqua;
     display: flex;
+    flex-direction: row;
+   
+    
 }
+#mainn_top{
+    margin: 10px;
+    padding: 10px;
+    width: 1282px;
+    height: 366px;
+}
+
 .main_top_1{
-background-color: bisque;
+    
 }
+
 .main_top_2{
-    background-color: black;
+    
 }
+
 .main_top_3{
-        background-color: #333;
+
 }
-.main_top_1{
-    background-color: bisque;
-    }
-    .main_top_2{
-        background-color: black;
-    }
-    .main_top_3{
-            background-color: #333;
-    }
-i{
-    color: brown; 
+
+#main_bottom{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    
+}
+#main_bottom{
+    margin: 10px;
+    padding: 10px;
+    width: 1282px;
+    height: 366px;
+}
+
+.main_bottom_1{
+
+}
+
+.main_bottom_2{
+
+}
+
+.main_bottom_3{
+
 }
