@@ -12,7 +12,23 @@
 <body>
     <form action="/" method="GET">
         <label for="username">Your name</label>
-        <input type="text" name="user-name" id="username"/>
+        <input type="text" name="user-name" id="username" />
+        <label for="usaeremail">Your email address</label>
+        <input type="email" name="user-email" id="usaeremail">
+        <label for="userage">Your age</label>
+        <input type="number" step="1" name="user-age" id="userage">  
+        <label for="userpassword">Your password</label>
+        <input type="password" name="user-password" id="userpassword"> 
+        <label for="birthdate">Your birthdate</label>
+        <input type="date" name="user-birthdate" id="birthdate">
+        <hr>
+        <h2>How should we verify your account?</h2>
+        <input type="radio" name="verify" id="verify-text-message" value="text-message"/>
+        <label for="verify-text-message">Via message (SMS)</label>
+        <input type="radio" name="verify" id="verify-phone" value="phone"/>
+        <label for="verify-phone">Via phone call</label>
+        <input type="radio" name="verify" id="verify-email" value="email"/>
+        <label for="verify-email">Via an email</label>
         <button>Submit</button>
     </form>
     
