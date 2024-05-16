@@ -10,27 +10,123 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <form action="/" method="GET">
-        <label for="username">Your name</label>
-        <input type="text" name="user-name" id="username" />
-        <label for="usaeremail">Your email address</label>
-        <input type="email" name="user-email" id="usaeremail">
-        <label for="userage">Your age</label>
-        <input type="number" step="1" name="user-age" id="userage">  
-        <label for="userpassword">Your password</label>
-        <input type="password" name="user-password" id="userpassword"> 
-        <label for="birthdate">Your birthdate</label>
-        <input type="date" name="user-birthdate" id="birthdate">
-        <hr>
-        <h2>How should we verify your account?</h2>
-        <input type="radio" name="verify" id="verify-text-message" value="text-message"/>
-        <label for="verify-text-message">Via message (SMS)</label>
-        <input type="radio" name="verify" id="verify-phone" value="phone"/>
-        <label for="verify-phone">Via phone call</label>
-        <input type="radio" name="verify" id="verify-email" value="email"/>
-        <label for="verify-email">Via an email</label>
-        <button>Submit</button>
-    </form>
+    <header>
+        <h1>Demo Forms</h1>
+    </header>
+    <main>
+        <form action="/" method="GET">
+            <section>
+                <h2>Your personal details</h2>
+                <ul>
+                    <li>
+                        <label for="username">Your name</label>
+                        <input type="text" name="user-name" id="username" />        
+                    </li>
+                    <li>
+                        <label for="usaeremail">Your email address</label>
+                    <input type="email" name="user-email" id="usaeremail">
+                    </li>
+                    <li>
+                        <label for="userpassword">Your password</label>
+                        <input type="password" name="user-password" id="userpassword"> 
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <h2>More details</h2>
+                <ul>
+                    <li>
+                        <label for="userage">Your age</label>
+                        <input type="number" step="1" name="user-age" id="userage"> 
+                    </li>
+                    <li>
+                        <label for="birthdate">Your birthdate</label>
+                        <input type="date" name="user-birthdate" id="birthdate">
+                    </li>
+                    <li>
+                        <label for="favorite-color">Your favorite color</label>
+                        <select name="favorite-color" id="favorite-color">
+                            <option value="blue">My favorite color is blue</option>
+                            <option value="black">My favorite color is black</option>
+                            <option value="red">My favorite color is red</option>
+                        </select>
+                    </li>
+                </ul>
+            </section>
+            <section>
+                <label for="usermessage">Your message</label>
+                <textarea name="user-message" id="usermessage"></textarea>
+            </section>
+            <section>
+                <h2>How should we verify your account?</h2>
+                <ul>
+                    <li  class="form-control-inline">
+                        <input 
+                            type="radio"
+                            name="verify"
+                            id="verify-text-message"
+                            value="text-message" 
+                        />
+                        <label for="verify-text-message">Via message (SMS)</label>
+                    </li>
+                    <li class="form-control-inline">                       
+                        <input 
+                            type="radio" 
+                            name="verify" 
+                            id="verify-phone" 
+                            value="phone"
+                        />
+                        <label for="verify-phone">Via phone call</label>
+                    </li>
+                    <li class="form-control-inline">
+                        <input 
+                            type="radio" 
+                            name="verify" 
+                            id="verify-email" 
+                            value="email"
+                            />
+                        <label for="verify-email">Via an email</label>
+                    </li>
+                </ul>
+            </section>
+           <section>
+            <h2>How should we contact you?</h2>
+            <ul>
+                <li class="form-control-inline">
+                    <input 
+                        type="checkbox" 
+                        id="contact-email" 
+                        name="contact" 
+                        value="email"
+                        />
+                    <label for="contact-email">Contact me via email</label>
+                </li>
+                <li class="form-control-inline">
+                    <input
+                        type="checkbox" 
+                        id="contact-phone"
+                        name="contact" 
+                        value="phone"
+                        />
+                    <label for="contact-phone">Contact me via phone</label>
+                </li>
+            </ul>
+           </section>
+           <hr />
+           <section>
+
+                <div class="form-control-inline">
+                    <input type="checkbox" name="terms"  id="agree-terms">
+                    <label for="agree-terms">Agree-terms?</label>
+                </div>
+           </section>
+            <section>
+                
+                <button type="button">Submit</button>
+            </section>
+        </form>
+    </main>
+    
     
 </body>
 </html>
