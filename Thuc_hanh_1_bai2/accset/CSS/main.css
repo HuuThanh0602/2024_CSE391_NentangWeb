@@ -2,18 +2,18 @@ html,body{
     margin: 0;
 }
 
+.header{
+    color: #932417;
+}
+
 #main_top{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-   
+    width: 100%;
+    overflow: auto;
     
 }
-#mainn_top{
-    margin: 10px;
-    padding: 10px;
-    width: 1282px;
-    height: 366px;
+#main_top div{ 
+    display: flex;
+    display: inline-block;
 }
 
 .main_top_1{
@@ -21,34 +21,18 @@ html,body{
 }
 
 .main_top_2{
-    
+   
 }
 
 .main_top_3{
-
-}
-
-#main_bottom{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
     
 }
+
 #main_bottom{
-    margin: 10px;
-    padding: 10px;
-    width: 1282px;
-    height: 366px;
+    width: 100%;
+    overflow: auto;
 }
-
-.main_bottom_1{
-
-}
-
-.main_bottom_2{
-
-}
-
-.main_bottom_3{
-
+#main_bottom div{
+    display: flex;
+    display: inline-block;
 }
