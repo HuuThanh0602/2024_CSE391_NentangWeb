@@ -14,21 +14,23 @@
         <h1>Demo Forms</h1>
     </header>
     <main>
-        <form action="/" method="GET">
+        <form action="/" method="GET"  >
             <section>
                 <h2>Your personal details</h2>
                 <ul>
+        
                     <li>
                         <label for="username">Your name</label>
-                        <input type="text" name="user-name" id="username" />        
+                        <input type="text" name="user-name" id="username" required />        
                     </li>
                     <li>
-                        <label for="usaeremail">Your email address</label>
-                    <input type="email" name="user-email" id="usaeremail">
+                        <label for="useremail">Your email address</label>
+                        <input type="email" name="user-email" id="useremail" required >
+                        
                     </li>
                     <li>
                         <label for="userpassword">Your password</label>
-                        <input type="password" name="user-password" id="userpassword"> 
+                        <input type="password" name="user-password" id="userpassword" required minlength="7"> 
                     </li>
                 </ul>
             </section>
@@ -37,7 +39,7 @@
                 <ul>
                     <li>
                         <label for="userage">Your age</label>
-                        <input type="number" step="1" name="user-age" id="userage"> 
+                        <input type="number" step="1" name="user-age" id="userage" required min="18" max="100"> 
                     </li>
                     <li>
                         <label for="birthdate">Your birthdate</label>
@@ -121,8 +123,7 @@
                 </div>
            </section>
             <section>
-                
-                <button type="button">Submit</button>
+                <button type="submit">Submit</button>
             </section>
         </form>
     </main>
