@@ -1,4 +1,38 @@
-.gender-group input {
-    width: auto;
-    display: block;
+main{
+    width: 800px;
+    margin: 0 auto;
+    border: 3px solid rgb(167, 166, 166);
+}
+.header{
+    width: 750px;
+    margin: 0 auto;
+}
+
+.basic{
+    display: flex;
+   
+}
+.right{
+    width: 79.5%;
+}
+.left li{
+    margin-bottom: 6px;
+}
+.right li{
+    margin-bottom: 4px;
+    
+}
+li{
+    list-style: none;
+}
+.right ul {
+    margin-left: 0px;
+    padding-left: 8px;
+}
+.left ul{
+    margin-right: 0px;
+    padding-left: 15px;
+}
+.text input{
+    width: 100%;
 }
