@@ -1,38 +1,116 @@
 html,body{
-    margin: 0;
+    
+    margin: 0px auto;
+    width: 98%;
 }
 
 .header{
-    color: #932417;
+    border-left: 5px solid #9a2116;
+    margin: 2px;
 }
 
-#main_top{
-    width: 100%;
-    overflow: auto;
-    
+.header h3{
+    margin-left: 8px;
+    color: #9a2116;
+    font-size:20px;
 }
-#main_top div{ 
+/* dùng để xóa màu in */
+a{
+    text-decoration: none;
+}
+/* dùng để xóa dấu chấm đầu dòng */
+li{
+    list-style:none;
+}
+#main_top{
     display: flex;
-    display: inline-block;
+    
 }
 
 .main_top_1{
-    
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_top_1 img{
+    width: 100%;
+}
+.main_top_1_iten i{
+    color: brown;
+}
+.main_top_1_iten a{
+    color: black;
 }
 
 .main_top_2{
-   
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_top_2 img{
+    width: 100%;
+}
+.main_top_2_iten i{
+    color: brown;
+}
+.main_top_2_iten a{
+    color: black;
 }
 
 .main_top_3{
-    
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_top_3 img{
+    width: 100%;
+}
+.main_top_3_iten i{
+    color: brown;
+}
+.main_top_3_iten a{
+    color: black;
 }
 
 #main_bottom{
-    width: 100%;
-    overflow: auto;
-}
-#main_bottom div{
     display: flex;
-    display: inline-block;
+}
+
+.main_bottom_1{
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_bottom_1 img{
+    width: 100%;
+}
+.main_bottom_1_iten i{
+    color:brown;
+}
+.main_bottom_1_iten a{
+    color: black;
+}
+
+.main_bottom_2{
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_bottom_2 img{
+    width: 100%;
+}
+.main_bottom_2_iten i{
+    color:brown;
+}
+.main_bottom_2_iten a{
+    color: black;
+}
+
+.main_bottom_3{
+    max-width: 25%;
+    margin-right: 25px;
+}
+.main_bottom_3 img{
+    width: 100%;
+}
+.main_bottom_3_iten i{
+    color:brown;
+}
+.main_bottom_3_iten a{
+    color: black;
 }
